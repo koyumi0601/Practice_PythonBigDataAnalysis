@@ -9,7 +9,10 @@ site = {"http://data.go.kr":"한국 정부에서 제공하는 공공데이터",
 "https://data.gg.go.kr": "경기도 공공데이터 개방 포털",
 "http://data.gov": "미국 정부의 공공데이터",
 "http://data.worldbank.org": "세계 은행에서 제공하는 개방 데이터",
-"http://open.fda.gov": "미국 식약청의 개방 데이터"
+"http://open.fda.gov": "미국 식약청의 개방 데이터",
+"http://naver.com":"naver",
+"https://twitter.com":"twitter",
+"https://www.facebook.com":"meta"
 }
 
 print(json.dumps(site, indent=4, ensure_ascii=False))
